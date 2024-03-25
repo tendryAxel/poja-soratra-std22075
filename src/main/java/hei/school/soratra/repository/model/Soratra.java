@@ -17,6 +17,9 @@ public class Soratra {
     }
 
     @Id String id;
+
+    @Column
     String original_url;
+    @Column
     String transformed_url;
 }
